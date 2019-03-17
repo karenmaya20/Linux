@@ -70,13 +70,13 @@ Un pull request es una petición para que el desarrollador del proyecto original
 Describe los cambios que hiciste, confirma tu mensaje y GitHub te mostrará que la solicitud ha sido creada.
 
 ## Sincronización con el repositorio original
-Cuando se hace fork de un proyecto, se puede configurar Git para trear cambios del repositorio original.
+Cuando se hace fork de un proyecto, se puede configurar Git para traer cambios del repositorio original.
 ```
 git remote add --track master Miguelp-rez git://github.com/Miguelp-rez/Linux
 ```
 Esto significa, agrega una fuente remota en la dirección mencionada, siguiendo la rama master, y dale localmente el nombre Miguelp-rez.
 
-Ejecutar la siguiente instrucción para traer cambios del repositorio original. Es recomendable realizar esta acción antes de empezar a trabajar en la copia local.
+Para las prácticas futuras deberán sicronizar su repositorio con el del curso antes de empezar a trabajar su copia local.
 ```
 git pull Miguelp-rez master
 ```
